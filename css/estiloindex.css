@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8d7d8be;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    background-color: #2019f5;
+    padding: 20px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.logo {
+    height: 50px;
+    text-align: left;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+#acceso {
+    background-color: #2019f5;
+    padding: 50px;
+    margin: 70px;
+    margin-left: 330px;
+    margin-right: 330px;
+    border: 20px;
+    border-color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#logo2 {
+    height: 150px;
+    width: 150px;
+
+}
+
+
+footer {
+    background-color: #2019f5;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
