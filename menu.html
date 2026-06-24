@@ -18,13 +18,13 @@
         <h1>Alke Wallet</h1>
     </header>
     <nav class="navbar">
-        <div class="navbar-left">
+        <div class="navbarizquierda">
             BIENVENIDO: <span id="usuario"></span>
-            <div class="navbar-right">
+            <div class="navbarderecha">
                 <ul>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="sendmoney.html">Transferencias</a></li>
-                    <li><a href="transactions.html">Historial</a></li>
+                    <li><a href="transactions.html">Movimientos</a></li>
                     <li><a href="deposit.html">Depositar</a></li>
                 </ul>
             </div>
@@ -32,12 +32,15 @@
     </nav>
     <main>
         <div class="container">
+            <div>
+                <h2>Tu saldo es:</h2>
+            </div>
             <div id="mostrardinero">
 
             </div>
-            <button type="submit" id="depositar">Depositar</button>
-            <button type="submit" id="enviardinero">Enviar Dinero</button>
-            <button type="submit" id="transaciones">Ultimos Movimientos</button>
+            <button type="submit" class="btn btn-primary" id="depositar">Depositar</button>
+            <button type="submit" class="btn btn-primary" id="enviardinero">Enviar Dinero</button>
+            <button type="submit" class="btn btn-primary" id="transaciones">Ultimos Movimientos</button>
         </div>
     </main>
     <footer>

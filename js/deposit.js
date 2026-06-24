@@ -6,4 +6,5 @@ formulario.addEventListener("submit", function (event) {
     let deposito = Number(document.getElementById("deposito").value);
     monto = monto + deposito;
     localStorage.setItem("monto", monto);
-    alert("Su nuevo saldo es: $" + monto)})
+    alert("Su nuevo saldo es: $" + monto)
+})

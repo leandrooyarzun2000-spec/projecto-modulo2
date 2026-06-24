@@ -8,6 +8,7 @@ header {
     text-align: center;
     background-color: #2019f5;
     padding: 20px;
+    height: 20vh;
 }
 
 img {
@@ -19,20 +20,21 @@ img {
     height: 50px;
     text-align: left;
     width: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #acceso {
     background-color: #2019f5;
     padding: 50px;
-    margin: 70px;
-    margin-left: 330px;
-    margin-right: 330px;
-    border: 20px;
-    border-color: white;
+    width: 60%;
+    margin: 60px auto;
+    border: 20px white;
     border-radius: 30px;
     text-align: center;
     font-size: 30px;
+}
+#atras {
+    text-align: left;
 }
 
 #logo2 {

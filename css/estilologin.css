@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8d7d8be;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    background-color: #2019f5;
+    padding: 20px;
+    height: 20vh;
+}
+
+.logo {
+    height: 50px;
+    text-align: left;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+#acceso {
+    background-color: #2019f5;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: 40px auto;
+}
+
+#acceso div {
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    flex-direction: column;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    background-color: #d8d7d8be;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2019f5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
