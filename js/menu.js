@@ -2,7 +2,9 @@
 const usuario = localStorage.getItem("usuariovalido");
 const monto = parseFloat(localStorage.getItem("monto"));
 
+//Adicion de mostrar email a nav bar (muchas gracias profesor)
 document.getElementById("usuario").textContent = usuario;
+//Adicion de mostrar dinero al menu
 document.getElementById("mostrardinero").textContent = "$" + monto;
 
 //Boton Depositar
