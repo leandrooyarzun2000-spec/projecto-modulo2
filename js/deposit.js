@@ -8,9 +8,9 @@ formulario.addEventListener("submit", function (event) {
     event.preventDefault();
     //Sacar variable de deposito
     let deposito = Number(document.getElementById("deposito").value);
-//Operacion
+    //Operacion
     monto = monto + deposito;
-//Guardar monto nuevo en LocalStorage
+    //Guardar monto nuevo en LocalStorage
     localStorage.setItem("monto", monto);
     alert("Su nuevo saldo es: $" + monto)
     window.location.href = "menu.html";
