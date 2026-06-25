@@ -3,6 +3,7 @@ body {
     background-color: #d8d7d8be;
     color: rgb(255, 255, 255);
 }
+
 header {
     text-align: center;
     background-color: #2019f5;
@@ -14,9 +15,11 @@ header {
 .logo {
     text-align: left;
 }
+
 .logo img {
     height: 150px;
-    width: 150px;}
+    width: 150px;
+}
 
 nav {
     background-color: #2019f5;
@@ -36,6 +39,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 .container {
     background-color: #2019f5;
     border-radius: 10px;
@@ -44,7 +48,10 @@ a {
     height: 50vh;
     margin: 40px auto;
 }
-#mostrardinero {font-size: 60px;}
+
+#mostrardinero {
+    font-size: 60px;
+}
 
 footer {
     background-color: #2019f5;
